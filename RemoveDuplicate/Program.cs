@@ -54,5 +54,36 @@ namespace RemoveDuplicate
         //    }
         //    return newString;
         //}
+        
+        
+                //static void removeDups(string arr, int n)
+        //{
+        //    // elements which has appeared previously. 
+        //    Dictionary<char, bool> d = new Dictionary<char, bool>();
+
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        // Print the element if it is not 
+        //        // there in the hash map 
+        //        if (d.ContainsKey(arr[i]) != true)
+        //        {
+        //            d.Add(arr[i], true);
+        //        }
+        //    }
+
+        //    foreach (KeyValuePair<char, bool> x in d)
+        //    {
+        //        Console.Write(x.Key);
+        //    }
+        //    Console.ReadLine();
+        //}
+
+        //// Driver Code 
+        //public static void Main(String[] args)
+        //{
+        //    string s = "Methodology";
+        //    int n = s.Length;
+        //    removeDups(s, n);
+        //}
     }
 }
